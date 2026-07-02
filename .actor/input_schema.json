@@ -1,0 +1,29 @@
+{
+    "title": "Schema Markup Extractor Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "List of URLs to extract schema markup from.",
+            "editor": "requestListSources",
+            "prefill": [
+                { "url": "https://schema.org/" }
+            ]
+        },
+        "crawlLinks": {
+            "title": "Crawl Internal Links",
+            "type": "boolean",
+            "description": "If enabled, the crawler will also follow and extract schema from internal links found on the provided pages.",
+            "default": false
+        },
+        "maxPages": {
+            "title": "Maximum Pages",
+            "type": "integer",
+            "description": "Limit the maximum number of pages to crawl.",
+            "minimum": 1
+        }
+    },
+    "required": ["startUrls"]
+}

@@ -1,0 +1,109 @@
+{
+	"url": "https://www.rottentomatoes.com/m/inception",
+	"scrapedAt": "2026-07-02T07:14:05.111Z",
+	"schema_count": 1,
+	"schema_types_found": [
+		"Movie"
+	],
+	"has_faq": false,
+	"has_review": false,
+	"has_product": false,
+	"has_article": false,
+	"has_breadcrumb": false,
+	"schemas": [
+		{
+			"@type": [
+				"Movie"
+			],
+			"raw_json": {
+				"@context": "http://schema.org",
+				"@type": "Movie",
+				"actor": [
+					{
+						"@type": "Person",
+						"name": "Leonardo DiCaprio",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/leonardo_di_caprio",
+						"image": "https://resizing.flixster.com/n2i3Akk7l5zXNYNmdoQhdA6dmlU=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/435_v9_bc.jpg"
+					},
+					{
+						"@type": "Person",
+						"name": "Joseph Gordon-Levitt",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/joseph_gordonlevitt",
+						"image": "https://resizing.flixster.com/nDuspvnmKFfMVw9Vc-2YqzxVYl4=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/GNLZZGG0031CGY4.jpg"
+					},
+					{
+						"@type": "Person",
+						"name": "Elliot Page",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/elliot_page",
+						"image": "https://resizing.flixster.com/A81Wioc9o3THns_gL7g-a1hENoE=/100x120/v2/https://resizing.flixster.com/oUmi3Pk-tdJ34BPEK9ooZgjKUkI=/ems.ZW1zLXByZC1hc3NldHMvY2VsZWJyaXRpZXMvMmNkNWM5NDgtOGExNS00YTJiLTgzMjAtYjA0OTg1N2UzNGYwLmpwZw=="
+					},
+					{
+						"@type": "Person",
+						"name": "Tom Hardy",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/tom_hardy",
+						"image": "https://resizing.flixster.com/1I9NogUQDcgVityJPAIniKn2rN8=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/GNLZZGG00358F11.jpg"
+					},
+					{
+						"@type": "Person",
+						"name": "Ken Watanabe",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/ken_watanabe",
+						"image": "https://resizing.flixster.com/vhzSqcFnY1mtXJGWUtEnLhLsieE=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/36606_v9_bb.jpg"
+					}
+				],
+				"aggregateRating": {
+					"@type": "AggregateRating",
+					"bestRating": "100",
+					"description": "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show.",
+					"name": "Tomatometer",
+					"ratingCount": 363,
+					"ratingValue": "87",
+					"reviewCount": 363,
+					"worstRating": "0"
+				},
+				"contentRating": "PG-13",
+				"dateCreated": "2010-07-16",
+				"director": [
+					{
+						"@type": "Person",
+						"name": "Christopher Nolan",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/christopher_nolan",
+						"image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+					}
+				],
+				"description": "Discover reviews, ratings, and trailers for Inception on Rotten Tomatoes. Stay updated with critic and audience scores today!",
+				"genre": [
+					"Sci-Fi",
+					"Mystery & Thriller",
+					"Action"
+				],
+				"image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7825626_p_v10_ae.jpg",
+				"name": "Inception",
+				"producer": [
+					{
+						"@type": "Person",
+						"name": "Chris Brigham",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/chris-brigham",
+						"image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+					},
+					{
+						"@type": "Person",
+						"name": "Thomas Tull",
+						"sameAs": "https://www.rottentomatoes.com/celebrity/thomas-tull",
+						"image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+					}
+				],
+				"url": "https://www.rottentomatoes.com/m/inception",
+				"video": {
+					"@type": "VideoObject",
+					"thumbnailUrl": "https://statcdn.fandango.com/MPX/image/NBCU_Fandango/783/639/thumb_FAC161CF-2EC9-46E3-81D2-A6766AC0D231.jpg",
+					"name": "Inception: Trailer 1",
+					"duration": "2:17",
+					"sourceOrganization": "MPX",
+					"uploadDate": "2020-08-31T21:55:14",
+					"description": "",
+					"contentUrl": "https://www.rottentomatoes.com/m/inception/videos/Fe35v5adCCgL"
+				}
+			}
+		}
+	]
+}

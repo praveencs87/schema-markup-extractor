@@ -1,0 +1,7 @@
+{
+    "startUrls": [
+        { "url": "https://www.rottentomatoes.com/m/inception" }
+    ],
+    "crawlLinks": false,
+    "maxPages": 5
+}

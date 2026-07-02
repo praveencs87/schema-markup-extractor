@@ -1,0 +1,37 @@
+{
+    "actorSpecification": 1,
+    "name": "schema-markup-extractor",
+    "title": "Schema Markup Extractor",
+    "description": "Extract and analyze all JSON-LD schema markup from any URL for SEO competitive analysis.",
+    "version": "1.0",
+    "input": "./input_schema.json",
+    "dockerfile": "./Dockerfile",
+    "minMemoryMbytes": 256,
+    "maxMemoryMbytes": 1024,
+    "pricingModel": "PAY_PER_EVENT",
+    "pricingEvents": [
+        {
+            "eventName": "apify-actor-start",
+            "pricePerEvent": 0.05,
+            "description": "Base fee for starting the crawler"
+        },
+        {
+            "eventName": "page-extracted",
+            "pricePerEvent": 0.001,
+            "description": "Charged per page successfully extracted ($1 per 1k pages)"
+        }
+    ],
+    "isPublic": true,
+    "seoTitle": "Schema Markup Extractor | JSON-LD SEO Analyzer",
+    "seoDescription": "Extract and analyze all JSON-LD schema markup from any URL for SEO competitive intelligence. Detects Product, FAQ, Review, Article, and more.",
+    "categories": [
+        "SEO",
+        "MARKETING",
+        "DATA_EXTRACTION"
+    ],
+    "defaultRunOptions": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256
+    }
+}

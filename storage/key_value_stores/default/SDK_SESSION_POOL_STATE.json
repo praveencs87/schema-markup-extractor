@@ -1,0 +1,50 @@
+{
+  "usableSessionsCount": 1,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_SXAIMyAmXM",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.1",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "akamai_generated_location",
+            "value": "{\"zip\":\"\"\"\",\"city\":\"KOCHI\",\"state\":\"KL\",\"county\":\"\"\"\",\"areacode\":\"\"\"\",\"lat\":\"9.97\",\"long\":\"76.23\",\"countrycode\":\"IN\"}",
+            "expires": "2026-08-01T07:14:05.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2026-07-02T07:14:05.104Z",
+            "lastAccessed": "2026-07-02T07:14:05.104Z"
+          },
+          {
+            "key": "akacd_RTReplatform",
+            "value": "2147483647~rv=54~id=77c053fe38f49481d90b4bf3c760a5b5",
+            "expires": "2038-01-19T03:14:07.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2026-07-02T07:14:05.108Z",
+            "lastAccessed": "2026-07-02T07:14:05.108Z",
+            "sameSite": "none"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2026-07-02T08:04:03.132Z",
+      "createdAt": "2026-07-02T07:14:03.132Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}
